@@ -1,3 +1,9 @@
 ---
 name: Beaker Acceptance Tests
 # Empty placeholder for testing the pr
+
+on:
+  workflow_dispatch:
+
+jobs:
+  acceptance:
